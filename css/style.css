@@ -17,6 +17,18 @@
     padding-top: 4dvh;
 
   }
+  h3{
+    color: white;
+    background-color: #353434;
+    padding: 3%;
+    border-radius: 10px;
+    
+  }
+  h3::after{
+    content: ":";
+    display: inline;
+   margin-left: 5px;
+  }
   
   nav {
     color: white;
@@ -156,9 +168,7 @@
     border-right: 5px double #0e0c0c;
   }
   
-  section #Info_Cont1 h3 {
-    text-decoration: underline;
-  }
+
   
   section #array_container {
     display: flex;
@@ -171,14 +181,8 @@
   section #Info_Cont2 {
     padding: 20% 10%;
     border-left: 5px double #0e0c0c;
-
-
   }
-  
-  section #Info_Cont2 h3 {
-    text-decoration: underline;
-  }
-  
+
   .hide {
     display: none;
   }
