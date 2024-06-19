@@ -79,6 +79,7 @@
   #a_stop{
     background-color: red;
     margin-left: 2%;
+    opacity: 0;
   }
 
   #a_stop:hover {
