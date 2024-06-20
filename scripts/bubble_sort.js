@@ -12,9 +12,9 @@ function Bubble()
 
     c_delay=0;
 
-    for(var i=0;i<array_size-1;i++)
+    for(let i=0;i<array_size-1;i++)
     {
-        for(var j=0;j<array_size-i-1;j++)
+        for(let j=0;j<array_size-i-1;j++)
         {
             div_update(divs[j],div_sizes[j],"yellow");//Color update
 
@@ -23,7 +23,7 @@ function Bubble()
                 div_update(divs[j],div_sizes[j], "red");//Color update
                 div_update(divs[j+1],div_sizes[j+1], "red");//Color update
 
-                var temp=div_sizes[j];
+                let temp=div_sizes[j];
                 div_sizes[j]=div_sizes[j+1];
                 div_sizes[j+1]=temp;
 
